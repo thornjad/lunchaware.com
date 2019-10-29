@@ -38,39 +38,32 @@ html, body {
     width: 10px;
     height: 30px;
     transform: rotate(1deg) scale(.3);
-    border-radius: 100%;
-  }
+    border-radius: 100%;}
   100% {
     transform: rotate(-720deg) scale(1.5);
-    width: 100%;
-  }
-}
+    width: 100%;}}
 
 body,
 html {
   height: 100%;
-  margin: 0 auto;
-}
+  margin: 0 auto;}
 
 body {
   display: flex;
   align-items: center;
-  justify-content: center;
-}
+  justify-content: center;}
 
 
 @-webkit-keyframes rotationfirst {
     0%  {-webkit-transform: rotate(0deg);}
-    100% {-webkit-transform: rotate(45deg);}   
-}
+    100% {-webkit-transform: rotate(45deg);}   }
 * { box-sizing: border-box; }
 .video-background {
   display: none;
   background-image:  url(https://lunchaware.com/static/seals1.gif);
   position: fixed;
   top: 0; right: 0; bottom: 0; left: 0;
-  z-index: 0;
-}
+  z-index: 0;}
 .video-foreground,
 .video-background iframe {
   position: absolute;
@@ -78,13 +71,11 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  pointer-events: none;
-}
+  pointer-events: none;}
 #vidtop-content {
     top: 0;
     color: #fff;
-    z-index: 1;
-}
+    z-index: 1;}
 .vid-info {
     position: absolute;
     top: 0;
@@ -93,56 +84,45 @@ body {
     background: rgba(0,0,0,0.3);
     color: #fff;
     padding: 1rem;
-    font-family: Avenir, Helvetica, sans-serif;
-}
+    font-family: Avenir, Helvetica, sans-serif;}
 .vid-info h1 { font-size: 2rem; font-weight: 700; margin-top: 0; line-height: 1.2; }
 .vid-info a { display: block; color: #fff; text-decoration: none; background: rgba(0,0,0,0.5); transition: .6s background; border-bottom: none; margin: 1rem auto; text-align: center; }
 @media (min-aspect-ratio: 16/9) {
-  .video-foreground { height: 300%; top: -100%; }
-}
+  .video-foreground { height: 300%; top: -100%; }}
 @media (max-aspect-ratio: 16/9) {
-  .video-foreground { width: 300%; left: -100%; }
-}
+  .video-foreground { width: 300%; left: -100%; }}
 @media all and (max-width: 600px) {
     .vid-info { margin-top: 100vh; width: 100%; padding: .5rem; }
-    .vid-info h1 { margin-bottom: .2rem; }
-}
+    .vid-info h1 { margin-bottom: .2rem; }}
 @media all and (max-width: 500px) {
-.vid-info .acronym { display: none; }
-}
+.vid-info .acronym { display: none; }}
 
 img.thebest {
     margin: 20px;
     height: 100px;    
-    -webkit-animation: rotationfirst .1s infinite linear alternate;
-}
+    -webkit-animation: rotationfirst .1s infinite linear alternate;}
 
 img.thesecondbest {
     margin: 20px;
     height: 100px;    
-    -webkit-animation: rotationsecond .1s infinite linear alternate;
-}
+    -webkit-animation: rotationsecond .1s infinite linear alternate;}
 img.thethirdbest {
     margin: 20px;
     height: 100px;
-     -webkit-animation: rotationthird .5s infinite linear alternate;
-}
+     -webkit-animation: rotationthird .5s infinite linear alternate;}
 
 
 @-webkit-keyframes rotationfirst {
     0%  {-webkit-transform: rotate(0deg);}
-    100% {-webkit-transform: rotate(45deg);}   
-}
+    100% {-webkit-transform: rotate(45deg);}   }
 
 @-webkit-keyframes rotationsecond {
     0%  {-webkit-transform: rotate(0deg);}
-    100% {-webkit-transform: rotate(-45deg);}   
-}
+    100% {-webkit-transform: rotate(-45deg);}   }
 
 @-webkit-keyframes rotationthird {
     0%  {-webkit-transform: rotate(-270deg);}
-    100% {-webkit-transform: rotate(270deg);}
-}
+    100% {-webkit-transform: rotate(270deg);}}
 
 
 
@@ -154,10 +134,13 @@ img.thethirdbest {
 
 
 
+										
 
 
 
-
+	
+	
+	
 
 
 </style>
@@ -242,6 +225,11 @@ img.thethirdbest {
 <audio src="/static/nyan.m4a"  autoplay loop>
 </audio>
 
+<audio src="/static/adcc.m4a" autoplay loop></audio>
+<audio src="/static/adcc-2.m4a" autoplay loop></audio>
+<audio src="/static/adcc-4.m4a" autoplay loop></audio>
+<audio src="/static/adcc-6.m4a" autoplay loop></audio>
+<audio src="/static/adcc-8.m4a" autoplay loop></audio>
 <audio src="/static/adcc.m4a" autoplay loop></audio>
 <audio src="/static/adcc-2.m4a" autoplay loop></audio>
 <audio src="/static/adcc-4.m4a" autoplay loop></audio>
